@@ -78,9 +78,13 @@ Describe briefly how you found your optimal hyperparameter. If you focussed stro
 Note: Reinforce random parameter optimization with no motivation/discussion is not interesting and will be graded accordingly
 ## Members Contribution 
 Explain what member did what in the project:
+
 Member 1: _implemented the training objective using X, Y, and Z. Supported member 2 in refactoring the code. Data cleaning, etc._
+
 Member 2: ...
+
 ...
+
 We should be able to understand each member's contribution within 5 minutes. 
 
 ## References 
