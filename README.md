@@ -56,14 +56,21 @@ For each experiment answer briefly the questions:
 ## Results 
 Summarize all the results of your experiments in a table:
 
-|                |SST               |QQP            |STS                        | Paraphrase Detection | Paraphrase Generation
+|                |SST               |QQP            |STS                        | PTG | PTD
 |----------------|-----------|------- |---------|----|-----------------------------|
 |Experiment 1 |45.23%           |...            | ...|...|...
 |Experiment 2          |58.56%            |...           |...|...|...
 |Experiment 3        |52.11%|...|...|...|...
 |...        |...|...|...|...|...
 
+- Stanford Sentiment Treebank (SST)
+- Quora Question Pairs (QQP)
+- Semantic Textual Similarity (STS)
+- Paraphrase Type Detection (PTD)
+- Paraphrase Type Generation (PTG)
+- 
 Results should have three-digit precision.
+ 
 
 ### Hyperparameter Optimization 
 Describe briefly how you found your optimal hyperparameter. If you focussed strongly on Hyperparameter Optimization, you can also include it in the Experiment section. 
