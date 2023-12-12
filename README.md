@@ -42,7 +42,11 @@ Keep track of your experiments here. What are the experiments? Which tasks and m
 
 Write down all the main experiments and results you did, even if they didn't yield an improved performance. Bad results are also results. The main findings/trends should be discussed properly. Why a specific model was better/worse than the other?
 
-You are **required** to implement one baseline and improvement per task. Of course, you can include more experiments/improvements and discuss them. Be creative and ambitious.
+You are **required** to implement one baseline and improvement per task. Of course, you can include more experiments/improvements and discuss them. 
+
+You are free to include other metrics in your evaluation to have a more complete discussion.
+
+Be creative and ambitious.
 
 For each experiment answer briefly the questions:
 
@@ -56,19 +60,49 @@ For each experiment answer briefly the questions:
 ## Results 
 Summarize all the results of your experiments in a table:
 
-|                |SST               |QQP            |STS                        | PTG | PTD
-|----------------|-----------|------- |---------|----|-----------------------------|
-|Experiment 1 |45.23%           |...            | ...|...|...
-|Experiment 2          |58.56%            |...           |...|...|...
-|Experiment 3        |52.11%|...|...|...|...
-|...        |...|...|...|...|...
+| **Stanford Sentiment Treebank (SST)** | **Metric 1** |**Metric n** |
+|----------------|-----------|------- |
+|Baseline |45.23%           |...            | 
+|Improvement 1          |58.56%            |...          
+|Improvement 2        |52.11%|...|
+|...        |...|...|
+
+| **Quora Question Pairs (QQP)** | **Metric 1** |**Metric n** |
+|----------------|-----------|------- |
+|Baseline |45.23%           |...            | 
+|Improvement 1          |58.56%            |...          
+|Improvement 2        |52.11%|...|
+|...        |...|...|
+
+| **Semantic Textual Similarity (STS)** | **Metric 1** |**Metric n** |
+|----------------|-----------|------- |
+|Baseline |45.23%           |...            | 
+|Improvement 1          |58.56%            |...          
+|Improvement 2        |52.11%|...|
+|...        |...|...|
+
+| **Paraphrase Type Detection (PTD)** | **Metric 1** |**Metric n** |
+|----------------|-----------|------- |
+|Baseline |45.23%           |...            | 
+|Improvement 1          |58.56%            |...          
+|Improvement 2        |52.11%|...|
+|...        |...|...|
+
+| **Paraphrase Type Generation (PTG)** | **Metric 1** |**Metric n** |
+|----------------|-----------|------- |
+|Baseline |45.23%           |...            | 
+|Improvement 1          |58.56%            |...          
+|Improvement 2        |52.11%|...|
+|...        |...|...|
+
 
 - Stanford Sentiment Treebank (SST)
 - Quora Question Pairs (QQP)
 - Semantic Textual Similarity (STS)
 - Paraphrase Type Detection (PTD)
 - Paraphrase Type Generation (PTG)
-- 
+
+  
 Results should have three-digit precision.
  
 
@@ -98,3 +132,7 @@ We should be able to understand each member's contribution within 5 minutes.
 
 # References 
 Write down all your references (other repositories, papers, etc.) that you used for your project.
+
+
+# Frequent Asked Questions
+Please add all FAQ you can think here (Talk with other hiwis to collect some nice questions)
