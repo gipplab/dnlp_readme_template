@@ -58,7 +58,7 @@ For each experiment answer briefly the questions:
 - Discuss the results. Why did improvement _A_ perform better/worse compared to other improvements? Did the outcome match your expectations? Can you recognize any trends or patterns?
 
 ## Results 
-Summarize all the results of your experiments in a table:
+Summarize all the results of your experiments in tables:
 
 | **Stanford Sentiment Treebank (SST)** | **Metric 1** |**Metric n** |
 |----------------|-----------|------- |
@@ -95,14 +95,8 @@ Summarize all the results of your experiments in a table:
 |Improvement 2        |52.11%|...|
 |...        |...|...|
 
+Discuss your results, observations, correlations, etc.
 
-- Stanford Sentiment Treebank (SST)
-- Quora Question Pairs (QQP)
-- Semantic Textual Similarity (STS)
-- Paraphrase Type Detection (PTD)
-- Paraphrase Type Generation (PTG)
-
-  
 Results should have three-digit precision.
  
 
