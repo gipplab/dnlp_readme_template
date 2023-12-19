@@ -15,7 +15,7 @@ Although this example is already quite good, that doesn't mean that you should j
 
   
 
-<div align="right">
+<div align="left">
 
 <b> Group Name </b> <br/>
 
@@ -120,37 +120,21 @@ important ones are:
   
 
 | Parameter | Description  |
-
 | ----------------------- | ------------------------------------------------------------------------------ |
-
 | `--additional_input`  | Activates the usage for POS and NER tags for the input of BERT |
-
 | `--batch_size`  | Batch size.  |
-
 | `--clip`  | Gradient clipping value. |
-
 | `--epochs`  | Number of epochs.  |
-
 | `--hidden_dropout_prob` | Dropout probability for hidden layers. |
-
 | `--hpo_trials`  | Number of trials for hyperparameter optimization.  |
-
 | `--hpo` | Activate hyperparameter optimization.  |
-
 | `--lr`  | Learning rate. |
-
 | `--optimizer` | Optimizer to use. Options are `AdamW` and `SophiaH`. |
-
 | `--option`  | Determines if BERT parameters are frozen (`pretrain`) or updated (`finetune`). |
-
 | `--samples_per_epoch` | Number of samples per epoch. |
-
 | `--scheduler` | Learning rate scheduler to use. Options are `plateau`, `cosine`, and `none`. |
-
 | `--unfreeze_interval` | Number of epochs until the next BERT layer is unfrozen |
-
 | `--use_gpu` | Whether to use the GPU.  |
-
 | `--weight_decay`  | Weight decay for optimizer.  |
 
   
@@ -216,17 +200,11 @@ the same semantic meaning.
   
 
 | Model name | Parameters  | Accuracy |
-
 | -------------- | ----------------------------------------- | -------- |
-
 | data2Vec | State-of-the-art single task model  | 92.4%  |
-
 | Baseline | | 87.0%  |
-
 | Tagging  | `--additional_input`  | 86.6%  |
-
 | Synthetic Data | `--sst_train data/ids-sst-train-syn3.csv` | 86.5%  |
-
 | SophiaH  | `--optimizer sophiah` | 85.3%  |
 
   
@@ -250,15 +228,10 @@ neutral, somewhat positive, or positive.
 | Model name  | Parameters  | Accuracy |
 
 | ------------------------------- | ----------------------------------------- | -------- |
-
 | Heinsen Routing + RoBERTa Large | State-of-the-art single task model  | 59.8%  |
-
 | Tagging | `--additional_input`  | 50.4%  |
-
 | SophiaH | `--optimizer sophiah` | 49.4%  |
-
 | Baseline  | | 49.4%  |
-
 | Synthetic Data  | `--sst_train data/ids-sst-train-syn3.csv` | 47.6%  |
 
   
@@ -278,17 +251,11 @@ allows for 5 degrees of similarity.
   
 
 | Model name | Parameters  | Pearson Correlation |
-
 | -------------- | ----------------------------------------- | ------------------- |
-
 | MT-DNN-SMART | State-of-the-art single task model  | 0.929 |
-
 | Synthetic Data | `--sst_train data/ids-sst-train-syn3.csv` | 0.875 |
-
 | Tagging  | `--additional_input`  | 0.872 |
-
 | SophiaH  | `--optimizer sophiah` | 0.870 |
-
 | Baseline | | 0.866 |
 
   
@@ -750,19 +717,12 @@ We utilized the<tt>pytorch_profiler</tt> integrated with TensorBoard to gain ins
   
 
 | Category  | Time Duration (us) | Percentage (%) |
-
 | ----------------- | ------------------ | -------------- |
-
 | Average Step Time | 2,199,623  | 100  |
-
 | GPU Kernel  | 1,415,549  | 64.35  |
-
 | Memcpy  | 3,064  | 0.14 |
-
 | Memset  | 4,455  | 0.20 |
-
 | CPU Execution | 574,478  | 26.12  |
-
 | Other | 202,077  | 9.19 |
 
   
@@ -788,14 +748,11 @@ Given the GPU usage rate of 64.35% and the projected SM effectiveness, there cou
   
 
 | Member A  | Member B | Member C |
-
 | ---------------- | --------------------- | --------------------- |
-
 | Tagging  | Sophia Optimizer  | Synthetic Data  |
-
 | Layer Unfreeze | Hyperparameter Tuning | |
-
 | Classifier Model | Repository  | |
+
 
   
 

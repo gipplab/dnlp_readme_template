@@ -166,9 +166,7 @@ Our model achieves the following performance on :
   
 
 | Model  | Paraphrase Accuarcy  | Sentiment Accuracy | Semantic Text Similarity Correlation |
-
 | ------------------ |---------------- | -------------- | --------------|
-
 | Multitask Classifier BERT Model | 89.01% |  49.59% |  88.00%  |
 
   
@@ -180,9 +178,7 @@ During training, we create a text file with information about our best model fro
   
 
 | Model  | Paraphrase Accuarcy  | Sentiment Accuracy | Semantic Text Similarity Correlation |
-
 | ------------------ |---------------- | -------------- | --------------|
-
 | Multitask Classifier pretrain BERT Model | 26.34% |  62.47% |  37.30%  |
 
   
