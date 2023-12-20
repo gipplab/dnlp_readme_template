@@ -124,9 +124,11 @@ Explain what member did what in the project:
 
 We should be able to understand each member's contribution within 5 minutes. 
 
+# AI-Usage Card
+Artificial Intelligence (AI) aided the development of this project. Please add a link to your AI-Usage card here.
+
 # References 
 Write down all your references (other repositories, papers, etc.) that you used for your project.
 
 
-# Frequent Asked Questions
-Please add all FAQ you can think here (Talk with other hiwis to collect some nice questions)
+
