@@ -125,7 +125,7 @@ Explain what member did what in the project:
 We should be able to understand each member's contribution within 5 minutes. 
 
 # AI-Usage Card
-Artificial Intelligence (AI) aided the development of this project. Please add a link to your AI-Usage card here.
+Artificial Intelligence (AI) aided the development of this project. Please add a link to your AI-Usage card [here](https://ai-cards.org/).
 
 # References 
 Write down all your references (other repositories, papers, etc.) that you used for your project.
